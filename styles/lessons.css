@@ -12,9 +12,12 @@
 }
 
 .graphics {
-  width: 55.5vw;
+  width: 30vw;
   margin: 5px 0 5px 0;
   border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   
 }
 
@@ -105,6 +108,7 @@
   font-size: 1.4rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
   
 }
 
@@ -157,6 +161,14 @@
   
 }
 
+#back:hover, #next:hover {
+  transform: scale(0.97);
+}
+
+#back:active, #next:active {
+  opacity: 0.8;
+}
+
 #selected, #selected div, #selected span{
   color: #79A3B1;
   background-color: #f7f8fa;
@@ -167,6 +179,7 @@
   background-color: #f7f8fa;
   
 }
+
 
 .lessons {
   display: flex;
@@ -203,11 +216,11 @@
 }
 
 .lessons a {
-  padding: 7px 20px 7px 20px;
+  padding: 8px 20px 8px 20px;
   margin: 0 0 0 0;
   text-decoration: none;
   color: black;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .chapters {
@@ -241,11 +254,11 @@
 }
 
 .chapters a {
-  padding: 6px 20px 6px 20px;
+  padding: 8px 20px 8px 20px;
   margin: 0 0 0 0;
   text-decoration: none;
   color: black;
-  font-size: 0.9rem;
+  font-size: 1rem;
   
   
 }
@@ -318,6 +331,11 @@
     
     .lessons {
       margin-top: 4vh;
+    }
+
+    .Example-child {
+      margin: 0 10px 0 10px;
+      
     }
 
 
