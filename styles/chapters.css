@@ -1,0 +1,173 @@
+body {
+  background-color: #f8f8f8;
+  
+}
+
+.chapters {
+  margin: 0 4vw 0 4vw;
+  
+}
+
+button:hover {
+  transform: scale(0.96);
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+#chapters-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #79A3B1;
+  margin-bottom: 2px;
+  margin-top: 30px;
+}
+
+#chapters-description {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: grey;
+  font-weight: 550;
+}
+
+.hr-chapter{
+  border: 1px solid #79A3B1;
+}
+
+.chapters-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 20px));
+  gap: 65px;
+  justify-content: center;
+  margin: 5vh 0 15vh 0;
+  
+}
+
+.chapters-child {
+  width: 340px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),0px 5px 10px rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  
+  
+}
+
+.chapter-description {
+  padding: 30px;
+}
+
+.chapter-img {
+  width: 340px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 1.5vw;
+  text-align: justify;
+  
+}
+
+.chapters-buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  
+}
+
+.no-lessons-container {
+  
+  
+  
+}
+
+.view-container {
+  
+  
+ 
+  
+
+}
+
+.no-lessons {
+  background-color: lightgrey;
+  width: 100px;
+  padding: 9px;
+  color: grey;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  text-align: center;
+  
+  
+}
+
+.no-lessons i {
+  margin-right: 5px;
+}
+
+.view {
+  float: right;
+  background-color: #79A3B1;
+  color: white;
+  border: none;
+  padding: 9px 25px 9px 25px;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+
+
+/*Responsiveness*/
+
+@media (max-width: 768px) {
+
+  .chapters-container {
+    grid-template-columns: auto;
+    gap: 40px;
+  }
+
+  .chapters-child {
+    width: 90vw;
+    
+    
+  }
+
+  .chapter-img {
+    width: 90vw;
+  }
+  
+  .chapters-buttons {
+  display: grid;
+  grid-template-columns: 100%;
+  
+
+
+
+}
+
+.view {
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.no-lessons {
+  width: 80px;
+  padding: 5px;
+  font-size: 0.7rem;
+}
+
+
+  
+}

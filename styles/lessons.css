@@ -1,0 +1,327 @@
+/*Content CSS*/
+.topic {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #79A3B1;
+  margin: 30px 0 30px 0;
+  
+}
+
+.list {
+  margin-left: 25px;
+}
+
+.graphics {
+  width: 55.5vw;
+  margin: 5px 0 5px 0;
+  border-radius: 5px;
+  
+}
+
+.ex-img {
+  width: 80px;
+  margin: 15px 0 15px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+  
+.Example-container {
+  background-color: #e8e9eb;
+  padding: 20px 0 40px 0;
+  border-radius: 5px;
+  margin: 30px 0 30px 0;
+  
+  
+}
+
+.Example {
+  margin: 0 0 0 20px;
+  font-size: 1.5rem;
+}
+
+.Example2 {
+  font-size: 1.6rem;
+}
+  
+
+
+.Example-child {
+  background-color: white;
+  margin: 0 20px 0 20px;
+  padding: 20px 30px 20px 12px;
+  border-left: 5px solid #79A3B1;
+  
+}
+.sub-topic {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 35px 0 10px 0;
+  color: #79A3B1;
+  
+}
+  
+
+
+.highlight {
+  font-weight: bold;
+  background-color: rgba(121, 163, 177, 0.4);
+  padding: 0 2px 0 2px;
+  margin-right: 3px;
+}
+
+/*ENDING*/
+.content {
+  display: flex;
+  width: 100vw;
+  background-color: #f5f5f5;
+  
+}
+
+.main-content {
+  padding: 2vw 2vw 4vw 2vw;
+  width: 55.5vw;
+  background-color: white;
+  margin-left: 9.5vw;
+  margin-top: 4vh;
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  text-align: justify;
+}
+
+
+.lesson-no {
+  padding: 20px 20px 20px 20px;
+  background-color: #79A3B1;
+  align-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.side-content {
+  position: fixed;
+  width: 20vw;
+  margin-left: 1vw;
+  right: 9.5vw;
+  margin-top: 4vh;
+  z-index: 1;
+}
+
+.back-next-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+  
+}
+
+.back-next-button a {
+  text-decoration: none;
+  
+}
+
+#back {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  color: #79A3B1;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 0.8rem;
+  
+}
+
+#next {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  color: #79A3B1;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 0.8rem;
+  
+}
+
+#selected, #selected div, #selected span{
+  color: #79A3B1;
+  background-color: #f7f8fa;
+  font-weight: bold;
+}
+
+.chapters a:hover, .lessons a:hover {
+  background-color: #f7f8fa;
+  
+}
+
+.lessons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 3vh 0;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0 0 2vh 0;
+}
+
+.lessons-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.lessons p {
+  padding: 0 0 0 20px;
+  background-color: #79A3B1;
+  height: 40px;
+  align-content: center;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 2vh;
+  
+  
+}
+
+.lessons a {
+  padding: 7px 20px 7px 20px;
+  margin: 0 0 0 0;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.chapters {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 2vh;
+}
+
+.chapters-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chapters p {
+  padding: 0 0 0 20px;
+  background-color: #79A3B1;
+  height: 40px;
+  align-content: center;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 2vh;
+    
+  
+}
+
+.chapters a {
+  padding: 6px 20px 6px 20px;
+  margin: 0 0 0 0;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  
+  
+}
+
+.spacer {
+  width: 100vw;
+  height: 5vh;
+  z-index: 2;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+
+@media (max-width: 992px) {
+  
+  .ex-img {
+  width: 100px;
+}
+  
+  .graphics {
+    width: 86vw;
+  }
+
+  .content {
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+
+    
+  }
+
+  .main-content {
+    width: 85vw;
+    margin: 0px;
+    position: static;
+    font-size: 1rem;
+    padding: 15px 16px 4vw 16px;
+  }
+
+  .side-content {
+    position: relative;
+    width: 93vw;
+    right: 0;
+    margin-top: 15px;
+    z-index: 3;
+  }
+
+    .chapters a {
+      font-size: 1rem;
+
+    }
+
+    .lessons a {
+      font-size: 1rem;
+      
+
+    }
+
+    .main-content {
+      margin-top: 3vh;
+    }
+
+    .lesson-no {
+      padding: 0 0 0 2vw;
+      height: 70px;
+      font-size: 1.2rem;
+      margin-bottom: 3vh;
+      
+    }
+    
+    .lessons {
+      margin-top: 4vh;
+    }
+
+
+  
+
+
+}
