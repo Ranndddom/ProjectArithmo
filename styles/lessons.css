@@ -101,7 +101,6 @@
 
 .lesson-no {
   padding: 20px 20px 20px 20px;
-  background-color: #79A3B1;
   align-content: center;
   color: white;
   font-weight: bold;
@@ -109,6 +108,9 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
+  background-image: url('/images/Home/ start-now-bg-img.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
