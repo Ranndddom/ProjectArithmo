@@ -172,10 +172,6 @@ button:active {
   justify-content: center;
   
 }
-.offers-container .offers-child:hover {
- transform: translateY(0px);
- transform: scale(1.1)
-}
 
 .about-img {
   width: 40vw;
@@ -222,6 +218,9 @@ button:active {
 
 /* Responsiveness */
 @media (max-width: 768px) {
+   .offers-container .offers-child:hover {
+ transform: translateY(0px);
+}
 
       .start-now-container {
         flex-direction: column-reverse;
