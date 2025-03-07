@@ -69,7 +69,8 @@
   padding: 30px 5vw 50px 5vw;
   margin: 5vw 0 5vw 0;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),0px 5px 10px rgba(0, 0, 0, 0);
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   
 }
 
