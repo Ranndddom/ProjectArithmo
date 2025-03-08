@@ -295,7 +295,8 @@
     position: static;
     font-size: 1rem;
     padding: 15px 16px 4vw 16px;
-    text-align: left:
+    text-align: left;
+   
   }
 
   .side-content {
